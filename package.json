@@ -8,8 +8,9 @@
     "url": "git+https://github.com/rafalswietek/react-rocket-kit"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
+    "start": "node index.js",
     "build": "webpack --mode production",
+    "start-dev": "webpack-dev-server --mode development --open --hot",
     "lint": "eslint . --cache",
     "lint-fix": "eslint . --cache --fix"
   },
@@ -23,6 +24,8 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^0.28.11",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
@@ -30,12 +33,14 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.9.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.0",
     "postcss-loader": "^2.1.5",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
-    "svg-sprite-loader": "^3.8.0",
+    "url-loader": "^1.1.1",
     "webpack": "^4.12.0",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
