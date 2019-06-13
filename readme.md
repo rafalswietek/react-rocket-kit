@@ -1,5 +1,6 @@
 # react-rocket-kit
 ## Super fresh react app starter
+EDIT: IT IS NOT THAT FRESH ANYMORE! :(
 
 ### Installing dependencies
 
